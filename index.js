@@ -1,12 +1,7 @@
-let numero1
-
-numero1 = parseInt(prompt('Insira um valor Inteiro e Positivo: '))
-
-for(let tabuada = 0; tabuada <= 10; tabuada++){
-    console.log(numero1 + " X " + tabuada + " = " + numero1 * tabuada)
-    console.log()
-}
-
-for(let tabuada = 0; tabuada <= 10; tabuada++){
-    console.log()
+let numero = parseInt(prompt("Digite um número inteiro e positivo"))
+for (let i = numero; i <= numero + 2; i++) {
+    console.log("Tabuada do número: " + i)
+    for(let j = 0; j <= 10; j++){
+        console.log(i + " X " + j + " = " + (i * j))
+    }
 }
